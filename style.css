@@ -1,9 +1,57 @@
-#App{
-    /*width: 50%;*/
- margin: 0 auto;
- 
- padding: 1%;
+.centre{
+    width: 80%;
+    margin-left: 2%;
+    /*margin: 0 auto;*/
 }
+
+#App{
+
+    text-align: center;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background-color: #258d00;
+    width: 70%;
+    margin: 0 auto;
+       border-radius: 15px 2px 15px 2px;
+       padding: 0.5%;
+       /*transition: 1s;*/
+
+
+}
+#todologo{
+    display: inline-block;
+    margin-top: 5px;
+    text-align: center;
+    width: 25%;
+    font-size: 13px;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 2px;
+    margin-right: 48%;
+  border: 2px;
+    border: 2px #258d00  solid;
+    border-radius: 15px 2px 15px 2px;
+}
+#todolog{
+    display: inline-block;
+    margin-top: 5px;
+    text-align: center;
+    width: 25%;
+    font-size: 13px;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+    text-indent: 0px;
+    padding: 2px;
+  border: 2px #258d00 solid;
+    border-radius: 15px 2px 15px 2px;
+
+}
+/*#demo{
+  
+    background-color: white;
+    border-left: 4px solid #258d00;
+    border-right: 4px solid #258d00;
+    border-top: 0px white;
+ 
+}*/
 h1{
     /*float: none;*/
     text-align: center;
@@ -15,137 +63,30 @@ h1{
        border-radius: 15px 2px 15px 2px;
        padding: 0.5%;
        /*transition: 1s;*/
-
-
 }
-/*h1:hover{
-transform: rotate(360deg);
-background-color: #e7e6e8;
-color: black;
-}*/
-
-#add{
-    margin-left: 10%;
+.centre{
+    width: 80%;
+    margin: 0 auto;
 }
-
-
-
-#todologo{
-    display: inline-block;
-    margin-top: 5px;
-    /*margin-left: 40%;*/
-    text-align: center;
-    width: 25%;
-    font-size: 13px;
-       font-family: Georgia, 'Times New Roman', Times, serif;
-    text-indent: 0px;
-    padding: 2px;
-    margin-right: 48%;
-  
-}
-#todolog{
-    display: inline-block;
-    margin-top: 5px;
-    text-align: center;
-    width: 25%;
-    font-size: 13px;
-       font-family: Georgia, 'Times New Roman', Times, serif;
-    text-indent: 0px;
-    padding: 2px;
-
-
-}
-/*#todologo{
-    width: 8%;
-    text-indent: 0px;
-    padding-left: 0.7em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    transition: 5s direction;
-    transform:rtl;
-  
-    border: 2px solid  #258d00;
-}
-#animate:hover{
-    margin-left: 90%;
-   
-}*/
-#input{
-    margin-left: 8%;
-margin-right: 5%;
- margin-bottom: 3px;
-    background-color: white;
-
-    /*padding: 1%;*/
-    border-left: 4px solid #258d00;
-    border-right: 4px solid #258d00;
-    border-top: 0px white;
-    height: 100%;
-     width: 70%;
-    transition:2s, width 1s;
-}
-
-#input:focus{
-    transform: rotate(360deg);
-    width: 90%;
-    margin-right: 2%;
-}
-/*completed*/
-
-
-
-
-
-
-input{
-margin-left: 8%;
-margin-right: 5%;
-    /*text-align: center;*/
-    background-color: white;
-    /*border: #b09d78;*/
-    width: 10%;
-    padding: 5px;
-    border-left: 5px solid #258d00;
-    border-right: 5px solid #258d00;
-    /*height: 100%;*/
-    border-radius: 5px 5px 5px 5px;
-    transition: 1s;
-}
-input:focus{
-    
-  width: 35% ;
-}
-/*#container{
-        
-
-}*/
-p{
-
-
-    width: 100%;
-    border: 2px solid #258d00;
-    text-indent: 3%;
-    border-radius: 10px 2px 10px 2px;
-   
-    padding-bottom: 2px;
-    font-size: 13px;
+.BG{
+        background-color: #258d00;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 18px;
+        color: white;}
+img{
+    max-width: 100%;
     
 }
-button{
-    /*margin-left: 100%;*/
-    border-radius: 10px 2px 10px 2px;
-    padding: 1px;
-    margin-left: 100%;
-    padding-left: 5px;
-    padding-right: 5px;
-    background-color: #212806;
-    color: white;
-    margin: auto 0; 
-    margin-top: 2px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.centr{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
 }
-
-button:hover{
-    background-color: #e7e6e8;
-    color: black ;
-    
+.topmargin{
+    margin-top: 10%;
+}
+.btn1{
+    width: 139px;
+    margin: 0 auto;
+    /*background-color: red;*/
 }
